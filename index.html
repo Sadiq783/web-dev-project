@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Properties in CSS</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <style>
+        #root
+        {
+            width: 300vw;
+            height: 300vh;
+            font-size: 15px;
+            background-color: aquamarine;
+        }
+        #root #parent
+        {
+
+            width: 60%;
+            height: 60%;
+            color: rgb(255, 0, 0);
+            font-size: 20px;
+            background-color: blueviolet;
+        }
+        #root #parent #child
+        {
+            width: 30%;
+            height: 30%;
+            background-color: black;
+            color: white;
+
+            /* color: brown; */
+            font-size: 2em;
+            align-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root">
+        root
+        <div id="parent">
+            parent
+            <div id="child">Child text</div>
+        </div>
+    </div>
+</body>
+</html>
